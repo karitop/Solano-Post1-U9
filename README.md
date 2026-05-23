@@ -1,6 +1,6 @@
 # Solano-Post1-U9
 
-# README — Unidad 9: Entrada y Salida Avanzados
+# Unidad 9: Entrada y Salida Avanzados
 
 ## Objetivo
 
@@ -33,6 +33,7 @@ TECL.COM
 ```
 
 **Comportamiento esperado:** al presionar una tecla, muestra su scancode en hex seguido de CR+LF. Por ejemplo, al presionar A muestra `1E`.
+
 <img width="630" height="364" alt="C1" src="https://github.com/user-attachments/assets/1e426597-f9c5-4cd8-bb20-ebd4087ef333" />
 
 ---
@@ -52,6 +53,7 @@ POLL_T.COM
 ```
 
 **Comportamiento esperado:** si se presiona una tecla antes de que CX llegue a 0, muestra el scancode en hex. Si no se presiona ninguna tecla, el contador expira y muestra `Timeout: sin respuesta del dispositivo`.
+
 <img width="643" height="88" alt="C2" src="https://github.com/user-attachments/assets/a7fb20f0-7e7b-47db-86d9-32277e26ac2e" />
 
 ---
@@ -71,6 +73,7 @@ LPT.COM
 ```
 
 **Comportamiento esperado:** en DOSBox no hay impresora física, por lo que los timeouts de BUSY# y ACK expiran y el programa termina limpiamente devolviendo el prompt. Esto verifica que el protocolo se ejecuta sin bloqueo indefinido.
+
 <img width="636" height="88" alt="C3" src="https://github.com/user-attachments/assets/6bf5f160-4d5c-47f3-b5b6-55f1481df9be" />
 
 ---
